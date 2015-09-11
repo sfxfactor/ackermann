@@ -18,8 +18,8 @@ def ack(m,n,anot):
     return anot
 
 acks=np.zeros((9999,9999))-1
-for m in range(0,5):
-    for n in range(0,5):
+for m in range(0,4):
+    for n in range(0,9):
         ts=time.clock()
         acks=ack(m,n,acks)
         te=time.clock()
